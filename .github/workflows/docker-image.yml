@@ -23,4 +23,4 @@ jobs:
         uses: docker/build-push-action@v5
         with:
           push: true
-          tags: ${{secrets.DOCKERHUB_org}}/docker-github-actions-runner:ubuntu-jammy
+          tags: ${{secrets.DOCKERHUB_ORG}}/docker-github-actions-runner:ubuntu-jammy
