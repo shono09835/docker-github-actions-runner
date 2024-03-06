@@ -18,3 +18,7 @@ RUN cd /tmp && wget https://github.com/future-architect/vuls/releases/download/v
   && apt update -y \
   && apt upgrade -y \
   && rm -rf /tmp/*
+  
+EXPOSE 80
+
+CMD ["nginx", "-g", "daemon off;"]
