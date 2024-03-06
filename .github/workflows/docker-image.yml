@@ -23,4 +23,4 @@ jobs:
         uses: docker/build-push-action@v5
         with:
           push: true
-          tags: ghcr.io/docker-github-actions-runner:ubuntu-jammy
+          tags: ghcr.io/shono09835/docker-github-actions-runner:ubuntu-jammy
